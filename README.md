@@ -1,13 +1,15 @@
-# django-taskmaster-pro
-A professional Task Management Dashboard built with Django 6.0, featuring a Hero landing page, custom Dark Mode, and a secure Admin backend. 🚀
-
-
-# TaskMaster Pro
-A full-stack Django application for professional task organization.
+# Django Task Manager
+A lightweight, database-driven Task Management application built with Django 6.0.
 
 ## Features
-- **MVT Architecture**: Clean separation of logic and presentation.
-- **Hero Page**: Professional landing page for unauthenticated users.
-- **User Dashboard**: CRUD operations (Create, Read, Delete) for authenticated users.
-- **Dark Mode**: Toggleable UI using CSS variables and JavaScript.
-- **WhiteNoise**: Integrated for high-performance static file serving.
+- **CRUD Functionality**: Create, Read, and Delete tasks.
+- **Admin Interface**: Secure backend for data management.
+- **SQLite Database**: Local file-based storage.
+
+## How to Run
+1. Clone the repository.
+2. Create a virtual environment: `python -m venv venv`
+3. Activate it: `.\venv\Scripts\activate`
+4. Install dependencies: `pip install -r requirements.txt`
+5. Run migrations: `python manage.py migrate`
+6. Start server: `python manage.py runserver`
